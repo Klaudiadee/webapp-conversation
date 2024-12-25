@@ -11,7 +11,7 @@ export const APP_INFO: AppInfo = {
 }
 
 export const isShowPrompt = true
-export const promptTemplate = 'I want you to act as a javascript console.'
+export const promptTemplate = 'Merry Christmas~ 今天有约吗？'
 
 export const API_PREFIX = '/api'
 
