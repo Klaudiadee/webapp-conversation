@@ -24,12 +24,8 @@ const AppIcon: FC<AppIconProps> = ({
         rounded && style.rounded,
         className ?? '',
       )}
-      style={{
-        background,
-      }}
-    >
-      🤖
-    </span>
+      style={{ background }}
+    />  // 移除了 🤖
   )
 }
 

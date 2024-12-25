@@ -1,7 +1,12 @@
 .appIcon {
   @apply flex items-center justify-center relative w-9 h-9 text-lg bg-teal-100 rounded-lg grow-0 shrink-0;
+  background-image: url('../../chat/icons/robot.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+/* 其他类保持不变 */
 .appIcon.large {
   @apply w-10 h-10;
 }
